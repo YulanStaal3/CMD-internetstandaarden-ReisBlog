@@ -105,12 +105,8 @@ h2{
   border: 2rem solid rgba(0,0,0,0);
 }
 
-.row {
-  margin-left: 3%;
-}
-
 .column {
-  float: left;
+  float: inline-end;
   padding: 50px;
   width: auto;
   position: relative;
@@ -166,20 +162,16 @@ h4 {
   font-size: 30px;
   color: var(--white);
   text-align: center;
-  padding-top: 5px;
   padding-bottom: 10px;
 }
 
 .border-box {
-  background-color: #191919;
-  box-shadow: 12px 12px 12px var(--black);
   width: 100%;
-  border-radius: 30px;
-  margin-left: 8px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: -50px;
   margin-top: 80px;
   padding-bottom: 500px;
-  padding-top: 5px;
   z-index: 20;
 }
 
@@ -189,3 +181,85 @@ h4 {
   opacity: 1;
   margin-top: 50px;
 }
+
+
+
+/* test formulier */
+
+.form-pink{
+  width: 70%;
+  margin: 150px auto 0 auto;
+  position: relative;
+  background-color: #7a7a7a;
+  border-radius: 30px;
+}
+
+.form-pink h2{
+  font-weight: 700;
+  font-size: 33px;
+  padding-top: 30px;
+  margin-left: -590px;
+}
+
+.form-pink h3{
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  padding-left: 30px;
+  padding-bottom: 200px;
+}
+
+input[type="text"], input[type="email"]{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  background-color: transparent;
+  width: 300px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  }
+
+
+input[placeholder="Suggestie"]{
+  padding-bottom: 50px;
+}
+
+label[for="lname"], label[for="fname"]{
+  margin-left: 20px;
+  color: #000000;
+}
+  .form{
+  width: 70%;
+  position: relative;
+  background-color: #c9c9c9;
+  padding-top: 20px;
+  margin: -200px 0 auto 180px;
+  border-radius: 30px;
+  }
+
+.button1 {
+  margin: auto 13px 20px 20px;
+  text-align: center;
+  width: 118px;
+  height: auto;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  transition: .6s;
+  position: relative;
+}
+ 
+  .button1:hover{
+    transform: scale(1.1);
+    transition: .6s;
+  }
+  
+ .button1 p{
+     color: #FFFFFF;
+     margin-bottom: 5px;
+      }
+
