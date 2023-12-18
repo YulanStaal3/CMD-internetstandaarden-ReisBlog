@@ -374,3 +374,33 @@ label[for="lname"], label[for="fname"]{
   margin-right: auto;
   margin-top: 50px;
 }
+
+
+@keyframes carousel {
+  from{
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.slider-container {
+padding-top: 30px;
+padding-bottom: 30px;
+width: 100%;
+overflow: hidden;
+}
+
+.slider-row {
+margin-left: -400px;
+width: 5700px;
+height: 290px;
+animation: carousel 60s linear infinite;
+animation-delay: 0s;
+}
+
+.slider-image {
+  height: 100%;
+  width: auto;
+}
