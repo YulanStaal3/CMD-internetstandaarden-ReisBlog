@@ -70,11 +70,6 @@ ul, a {
   text-align: center;
 }
 
-main {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 h2{
   margin-left: 0,8%;
   margin-top: 70px;
@@ -136,7 +131,6 @@ h4 {
   position: relative;
   width: 25%;
   margin-top: -500px;
-  /* z-index: -10; */
 }
 
 .middle {
@@ -274,41 +268,20 @@ label[for="lname"], label[for="fname"]{
   margin-top: 50px;
 }
 
-
-/* images bali */
-
-/* .images-bali {
-  display: flex;
-  width: 100%;
-  margin-top: 2em;
-}
-
-.images-bali2 {
-  width: 100%;
-  display:flex;
-  align-items: center;
-  padding: 2em;
-  background-color: #020202;
-} */
-
-
-/* OEFENEN FOTOS BALI */
-
+/*  FOTOS BALI */
 
 .row2 {
-  margin-left: 220px;
+  margin-left: 190px ;
 }
 
-/* Add padding BETWEEN each column */
-
-.row2 > .photo {
+.row2 .photo {
   padding: 20px;
 }
 
 /* Create four equal columns that floats next to each other */
 .photo {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 /* Clear floats after rows */ 
@@ -323,7 +296,6 @@ label[for="lname"], label[for="fname"]{
   background-color: #FFFFFF;
   padding: 10px;
 }
-
 
 /* test flip card eten */
 
@@ -394,7 +366,7 @@ overflow: hidden;
 
 .slider-row {
 margin-left: -400px;
-width: 5700px;
+width: 5000px;
 height: 290px;
 animation: carousel 60s linear infinite;
 animation-delay: 0s;
