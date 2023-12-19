@@ -68,6 +68,7 @@ h1 {
 
 ul, a {
   text-align: center;
+  list-style-type: none;
 }
 
 h2{
@@ -224,7 +225,7 @@ input[placeholder="Suggestie"]{
   padding-bottom: 50px;
 }
 
-label[for="lname"], label[for="fname"]{
+label, label[for="fname"]{
   margin-left: 20px;
   color: #000000;
 }
@@ -387,12 +388,6 @@ animation-delay: 0s;
 
 /* footer */
 
-.copyright {
-  margin-top: -110px;
-  text-align:center;
-  font-size: 18px;
-  color:#aaa;
-}
 
 .map-indo {
   width: 110%;
@@ -400,5 +395,47 @@ animation-delay: 0s;
   opacity: 1;
   margin-top: 50px;
   z-index: -20;
+  position: relative;
 }
 
+.footer-basic {
+  padding-top: 10px;
+  padding-bottom: 70px;
+  background-color: #FFB6C1;
+  color:#000000;
+  word-wrap: none;
+  position: relative;
+  margin-top: -170px;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+  display: inline-block;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#343434;
+  margin-bottom:0;
+}
